@@ -22,7 +22,7 @@ insert into student_activated_courses values(12,1),(12,2),(12,5),(15,2),(14,4),(
 create table company_drives(user_id INTEGER references users(user_id), company_name varchar(20));
 insert into company_drives values(1,'chubb'),(1,'tcs'),(1,'dxc'),(2,'amazon'),(4,'wipro'),(4,'tcs'),(5,'chubb'),(3,'chubb'),(3,'tcs');
 
-#t0pics Table
+#topics Table
 create table topics(topic_name varchar(20) primary key,total_questions INTEGER);
 insert into topics values('Numbers',500),('Company',145),('Basic',246),('DP',14),('Strings',200);
 
