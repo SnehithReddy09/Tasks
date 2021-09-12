@@ -213,4 +213,27 @@ db.collection.aggregate({
 
 /*QUERY 5 Find all the mentors with who has the mentee's count more than 15 */
 
+db.collection.find({
+  $where: "this.Mentees.length >= 15"
+},
+{
+  "_id": 0,
+  "Mentor_id": 1,
+  "Name": 1,
+  
+})
+
+/*RESULT*/
+
+[
+  {
+    "Mentor_id": 1,
+    "Name": "Shanker"
+  },
+  {
+    "Mentor_id": 1,
+    "Name": "Niranjan"
+  }
+]
+
 
