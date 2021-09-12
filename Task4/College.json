@@ -1,0 +1,295 @@
+/*Users Collection*/
+
+[
+{
+	"Student_id":1,
+	"Student_name":"a",
+	"email":"a@gmail.com"
+},
+{
+	"Student_id":2,
+	"Student_name":"b",
+	"email":"b@gmail.com"
+},
+{
+	"Student_id":3,
+	"Student_name":"c",
+	"email":"c@gmail.com"
+},
+{
+	"Student_id":4,
+	"Student_name":"d",
+	"email":"d@gmail.com"
+},
+{
+	"Student_id":5,
+	"Student_name":"e",
+	"email":"e@gmail.com"
+},
+{
+	"Student_id":6,
+	"Student_name":"f",
+	"email":"f@gmail.com"
+},
+{
+	"Student_id":7,
+	"Student_name":"g",
+	"email":"g@gmail.com"
+},
+{
+	"Student_id":8,
+	"Student_name":"h",
+	"email":"h@gmail.com"
+},
+{
+	"Student_id":9,
+	"Student_name":"i",
+	"email":"i@gmail.com"
+},
+{
+	"Student_id":10,
+	"Student_name":"j",
+	"email":"j@gmail.com"
+},
+{
+	"Student_id":11,
+	"Student_name":"k",
+	"email":"k@gmail.com"
+},
+]
+
+/*Codekata Collection*/
+[
+{
+	"Student_id":1,
+	"Name":"Snehith",
+	"Details":
+	[{"Topic":"Numbers",
+	  "Solved":15,
+	  "Total_Problems":30},
+	{"Topic":"Strings",
+	  "Solved":20,
+	  "Total_Problems":30},
+	{"Topic":"Basic",
+	  "Solved":15,
+	  "Total_Problems":30},
+	{"Topic":"DP",
+	  "Solved":15,
+	  "Total_Problems":30},]
+},
+{
+	"Student_id":2,
+	"Name":"Tinku",
+	"Details":
+	[{"Topic":"Numbers",
+	  "Solved":20,
+	  "Total_Problems":30},
+	{"Topic":"Strings",
+	  "Solved":20,
+	  "Total_Problems":30},
+	{"Topic":"Basic",
+	  "Solved":15,
+	  "Total_Problems":30},
+	{"Topic":"DP",
+	  "Solved":15,
+	  "Total_Problems":30},]
+},
+{
+	"Student_id":3,
+	"Name":"Achyuth",
+	"Details":
+	[{"Topic":"Numbers",
+	  "Solved":20,
+	  "Total_Problems":30},
+	{"Topic":"Strings",
+	  "Solved":10,
+	  "Total_Problems":30},
+	{"Topic":"Basic",
+	  "Solved":15,
+	  "Total_Problems":30},
+	{"Topic":"DP",
+	  "Solved":09,
+	  "Total_Problems":30},]
+},
+{
+	"Student_id":4,
+	"Name":"Nani",
+	"Details":
+	[{"Topic":"Numbers",
+	  "Solved":05,
+	  "Total_Problems":30},
+	{"Topic":"Strings",
+	  "Solved":06,
+	  "Total_Problems":30},
+	{"Topic":"Basic",
+	  "Solved":15,
+	  "Total_Problems":30},
+	{"Topic":"DP",
+	  "Solved":14,
+	  "Total_Problems":30},]
+}
+]
+
+
+/*Topics Tasks Collection*/
+[
+{
+	"Topic_id":1,
+	"Topic_name":"Java",
+	"Start_date":new Date("2020-10-11"),
+	"End_date":new Date("2020-11-11"),
+	"Task":
+	{
+		"Task_name":"Java Programs",
+		"Students_not_submitted":[1,2,5,9]
+	}
+},
+{
+	"Topic_id":2,
+	"Topic_name":"Angular",
+	"Start_date":new Date("2020-10-20"),
+	"End_date":new Date("2020-11-20"),
+	"Task":
+	{
+		"Task_name":"Assignment 2",
+		"Students_not_submitted":[6,7,10,11]
+	}
+},
+{
+	"Topic_id":3,
+	"Topic_name":"JSP",
+	"Start_date":new Date("2020-11-01"),
+	"End_date":new Date("2020-11-11"),
+	"Task":
+	{
+		"Task_name":"Java Server Pages",
+		"Students_not_submitted":[2,13]
+	}
+},
+{
+	"Topic_id":4,
+	"Topic_name":"Python",
+	"Start_date":new Date("2020-11-15"),
+	"End_date":new Date("2020-11-25"),
+	"Task":
+	{
+		"Task_name":"Python Programs",
+		"Students_not_submitted":[1,2,3,4,11]
+	}
+},
+{
+	"Topic_id":5,
+	"Topic_name":"SQL",
+	"Start_date":new Date("2020-10-01"),
+	"End_date":new Date("2020-11-01"),
+	"Task":
+	{
+		"Task_name":"Create DB",
+		"Students_not_submitted":[7,10]
+	}
+},
+]
+
+
+
+/*Company_drives Collection*/
+
+[
+{
+	"Company_name":"Chubb",
+	"Details":{
+	"Placement_type":["On-Campus"],
+	"date":new Date("2020-10-10"),
+	"Students_attended":[1,2,3,5] }	
+},
+{
+	"Company_name":"TCS",
+	"Details":{
+	"Placement_type":["On-Campus"],
+	"date":new Date("2020-09-10"),
+	"Students_attended":[1,3,5,6] }	
+},
+{
+	"Company_name":"Value Labs",
+	"Details":{
+	"Placement_type":["On-Campus"],
+	"date":new Date("2020-10-16"),
+	"Students_attended":[1,2,3,4,5] }	
+},
+{
+	"Company_name":"DXC",
+	"Details":{
+	"Placement_type":["On-Campus"],
+	"date":new Date("2020-10-16"),
+	"Students_attended":[1,3,4,5,6] }	
+},
+{
+	"Company_name":"Wipro",
+	"Details":{
+	"Placement_type":["Off-Campus"],
+	"date":new Date("2020-10-25"),
+	"Students_attended":[3,4,5] }	
+},
+{
+	"Company_name":"Cognizant",
+	"Details":{
+	"Placement_type":["Off-Campus"],
+	"date":new Date("2020-11-20"),
+	"Students_attended":[1,2,4,5] }	
+},
+{
+	"Company_name":"Amazon",
+	"Details":{
+	"Placement_type":["Off-Campus"],
+	"date":new Date("2020-10-20"),
+	"Students_attended":[1,2,3,4,5,6] }	
+},
+]
+
+
+
+/*Mentors Collection*/
+[
+{
+	"Mentor_id":1,
+	"Name":"SNR",
+	"Specialization":"Data Science",
+	"Mentees":[1,2,4,7,9,10,11,15,18]
+},
+{
+	"Mentor_id":1,
+	"Name":"SRK",
+	"Specialization":"Networking",
+	"Mentees":[1,2,3,4,6,7,8,9,10,11,13,14]
+},
+{
+	"Mentor_id":1,
+	"Name":"Swathy",
+	"Specialization":"Software Development",
+	"Mentees":[1,2,4,5,6,7,9,10,11,12,13,14,15,16]
+},
+{
+	"Mentor_id":1,
+	"Name":"PVK",
+	"Specialization":"Python Specialist",
+	"Mentees":[1,2,3,5,8,12,14,15,16]
+},
+{
+	"Mentor_id":1,
+	"Name":"Shanker",
+	"Specialization":"Big data",
+	"Mentees":[1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17]
+},
+{
+	"Mentor_id":1,
+	"Name":"Niranjan",
+	"Specialization":"Java Programmer",
+	"Mentees":[1,2,3,4,6,7,8,9,11,12,13,14,15,16,17]
+},
+]
+
+
+
+
+
+
