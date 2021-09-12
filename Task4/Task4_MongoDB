@@ -1,6 +1,6 @@
 /* 1st Query  Find all the topics and tasks which are thought in the month of October */
 
-db.collection.find({
+db.details.find({
   "$where": "this.Start_date.getMonth() === 09"
 },
 {
@@ -39,7 +39,7 @@ db.collection.find({
 
 
 /* Query 2 Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020 */
-db.collection.find({
+db.details.find({
   "Details.date": {
     $gt: new Date("2020-10-15"),
     $lt: new Date("2020-10-31")
@@ -122,7 +122,7 @@ db.collection.find({
 
 /* QUERY 3 Find all the company drives and students who are appeared for the placement. */
 
-db.collection.find({},
+db.details.find({},
 {
   "_id": 0,
   "Company_name": 1,
@@ -179,7 +179,7 @@ db.collection.find({},
 
 /* QUERY 4 Find the number of problems solved by the user in codekata*/
 
-db.collection.aggregate({
+db.details.aggregate({
   $project: {
     "Student_id": "$Student_id",
     "_id": 0,
@@ -213,7 +213,7 @@ db.collection.aggregate({
 
 /*QUERY 5 Find all the mentors with who has the mentee's count more than 15 */
 
-db.collection.find({
+db.details.find({
   $where: "this.Mentees.length >= 15"
 },
 {
