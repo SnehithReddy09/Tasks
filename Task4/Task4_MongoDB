@@ -238,7 +238,7 @@ db.mentors.find({
 
 
 /*QUERY 6 Find the number of users who are absent and task is submitted  between 15 oct-2020 and 31-oct-2020*/
-db.users_task.find({ $and:[ {"details.submitted_date":{$gt:new Date("2020-10-15"),$lt:new Date("2020-10-31")}}, {"details.status":"present"} ] });
+db.users_task.find({ $and:[ {"details.submitted_date":{$gt:new Date("2020-10-15"),$lt:new Date("2020-10-31")}}, {"details.status":"absent"} ] });
 
 /*RESULT*/
 
