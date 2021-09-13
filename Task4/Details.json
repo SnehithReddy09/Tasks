@@ -290,5 +290,106 @@
 
 
 
+/*user task collection*/
+
+[
+  {
+    "task_id": 1,
+    "task_name": "task1",
+    "task_given_data": new Date("2020-10-17"),
+    "details": [
+      {
+        "student_id": 1,
+        "submitted_date": new Date("2020-10-18"),
+        "status": "present"
+      },
+      {
+        "student_id": 2,
+        "submitted_date": new Date("2020-11-01"),
+        "status": "absent"
+      },
+      {
+        "student_id": 3,
+        "submitted_date": new Date("2020-10-18"),
+        "status": "present"
+      },
+      {
+        "student_id": 4,
+        "submitted_date": new Date("2020-10-20"),
+        "status": "absent"
+      },
+      {
+        "student_id": 5,
+        "submitted_date": new Date("2020-10-19"),
+        "status": "present"
+      }
+    ]
+  },
+  {
+    "task_id": 2,
+    "task_name": "task2",
+    "task_given_data": new Date("2020-10-20"),
+    "details": [
+      {
+        "student_id": 1,
+        "submitted_date": new Date("2020-10-21"),
+        "status": "absent"
+      },
+      {
+        "student_id": 2,
+        "submitted_date": new Date("2020-11-01"),
+        "status": "absent"
+      },
+      {
+        "student_id": 3,
+        "submitted_date": new Date("2020-10-20"),
+        "status": "present"
+      },
+      {
+        "student_id": 4,
+        "submitted_date": new Date("2020-10-21"),
+        "status": "present"
+      },
+      {
+        "student_id": 5,
+        "submitted_date": new Date("2020-10-29"),
+        "status": "present"
+      }
+    ]
+  },
+  {
+    "task_id": 3,
+    "task_name": "task3",
+    "task_given_data": new Date("2020-10-25"),
+    "details": [
+      {
+        "student_id": 1,
+        "submitted_date": new Date("2020-10-25"),
+        "status": "present"
+      },
+      {
+        "student_id": 2,
+        "submitted_date": new Date("2020-10-25"),
+        "status": "present"
+      },
+      {
+        "student_id": 3,
+        "submitted_date": new Date("2020-10-26"),
+        "status": "absent"
+      },
+      {
+        "student_id": 4,
+        "submitted_date": new Date("2020-10-27"),
+        "status": "present"
+      },
+      {
+        "student_id": 5,
+        "submitted_date": new Date("2020-10-29"),
+        "status": "absent"
+      }
+    ]
+  },
+  
+]
 
 
